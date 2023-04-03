@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "Millik";
+  src: url("/Millik Regular/Millik Regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none;
+  list-style: none;
+  font-family: "DM Sans";
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0 !important;
+}
+
+.flex-container {
+  height: 100%;
+  align-items: center;
+}
+
+/* .conmain {
+      width: 95%;
+      margin:auto;
+    } */
+
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+/* .conside {
+        width: 20% ;
+    } */
+
+.sidebar {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 264px !important;
+  background-color: #000000 !important;
+  position: fixed;
+  height: 98%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  border-radius: 16px;
+  margin-left: 10px !important;
+  margin-top: 5px !important;
+}
+
+.sidebar a {
+  align-items: center;
+  display: block;
+  color: #98a2b3;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.sidebar a:hover {
+  background-color: #1b1b1b !important;
+  border-radius: 0px;
+  color: #faa804;
+  border-left: 3px solid #faa804;
+}
+
+.sidebar a:hover i {
+  color: #faa804;
+}
+
+.conab {
+  padding-left: 12px;
+}
+
+.bignab {
+  font-size: 30px;
+  color: #fcfcfd;
+  font-weight: 700;
+}
+
+.img1 {
+  width: 30.58px;
+  height: 38.09px;
+}
+
+.bi-x-lg {
+  font-size: 35px;
+  color: #98a2b3;
+}
+
+.bi-x-lg:hover {
+  color: #faa804;
+}
+
+.pad {
+  padding-right: 15px;
+}
+
+.pad1a {
+  padding-left: 15px;
+}
+
+.pad1 {
+  padding-top: 420px;
+}
+
+.consection {
+  margin-left: 275px !important;
+  padding: 0px 10px;
+  max-width: 81% !important;
+}
+
+.dash {
+  font-size: 30px;
+  color: #231f20;
+  font-weight: 400;
+  /* font-family: "Millik" !important; */
+}
+
+.dashbut {
+  border-bottom: 1px solid #eaecf0;
+}
+
+.nav {
+  padding: 5px;
+  margin-left: 15px !important;
+  max-width: 1114px;
+}
+
+.bi-person-circle {
+  font-size: 35px;
+  color: #231f20;
+}
+
+/* 
+  .infocon :hover {
+    border-bottom: 3px solid #231f20;
+  } */
+
+.aicon {
+  border-bottom: 1px solid #eaecf0;
+}
+/* 
+  .aicon .infocon :hover {
+    border-bottom: 3px solid #231f20;
+  } */
+
+.a2 {
+  color: #667085;
+  text-decoration: none;
+}
+
+.a2 :hover {
+  color: #667085;
+}
+
+.a3 {
+  color: #667085;
+  text-decoration: none;
+}
+
+.a3 :hover {
+  color: #667085;
+}
+
+.bi-person {
+  color: #000000;
+}
+
+.bi-lock {
+  color: #000000;
+}
+
+.bs {
+  color: #344054;
+}
+
+.rtrans {
+  font-size: 16px;
+  color: #101828;
+  font-weight: 500;
+}
+
+form > div {
+  margin: 14px;
+}
+
+.number {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 440px;
+}
+
+.buss2 {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #667085;
+}
+
+label {
+  display: block !important;
+  font-size: 14px !important;
+  font-family: "Euclid Circular A", sans-serif !important;
+  color: #667085;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input,
+label {
+  margin: 0.4rem 0 !important;
+}
+
+.workinput {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 440px;
+}
+
+.a4 {
+  background-color: #faa804;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 440px;
+  padding: 10px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.tftextbox .tfnote {
+  width: 470px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container .bi-eye {
+  position: absolute;
+  top: 54%;
+  right: 4%;
+  cursor: pointer;
+  color: #98a1b4;
+}
+
+.margbutt {
+  margin-bottom: 15px;
+}
+
+.pinbut {
+  border-bottom: 1px solid #eaecf0;
+}

@@ -1,0 +1,493 @@
+@font-face {
+  font-family: "Millik";
+  src: url("/Millik Regular/Millik Regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none;
+  list-style: none;
+  font-family: "DM Sans";
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0 !important;
+}
+
+/* .flex-container {
+  height: 100%;
+  align-items: center;
+} */
+
+.conmain {
+  margin: auto !important;
+  width: 95%;
+}
+
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+/* .conside {
+  width: 25%;
+} */
+
+.conmain .sidebar {
+  /* align-items: center; */
+  margin: 0;
+  padding: 0;
+  /* width: 264px !important; */
+  width: 20%;
+  background-color: #000000 !important;
+  position: fixed;
+  height: 98%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  border-radius: 16px;
+  margin-left: 20px !important;
+  margin-top: 5px !important;
+}
+
+.sidebar a {
+  align-items: center;
+  display: block;
+  color: #98a2b3;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.sidebar a:hover {
+  background-color: #1b1b1b !important;
+  border-radius: 0px;
+  color: #faa804;
+  border-left: 3px solid #faa804;
+}
+
+.sidebar a:hover i {
+  color: #faa804;
+}
+
+.conab {
+  padding-left: 12px;
+}
+
+.bignab {
+  font-size: 30px;
+  color: #fcfcfd;
+  font-weight: 700;
+}
+
+.img1 {
+  width: 30.58px;
+  height: 38.09px;
+}
+
+.bi-x-lg {
+  font-size: 35px;
+  color: #98a2b3;
+}
+
+.bi-x-lg:hover {
+  color: #faa804;
+}
+
+.pad {
+  padding-right: 15px;
+}
+
+.pad1a {
+  padding-left: 15px;
+}
+
+.pad1 {
+  padding-top: 420px;
+}
+
+.conmain .consection {
+  margin-left: 275px !important;
+  /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  max-width: 81% !important;
+}
+
+/* .main {
+  margin-left: 275px !important; */
+/* Same as the width of the sidenav */
+/* padding: 0px 10px;
+  max-width: 81% !important;
+} */
+
+.dash {
+  font-size: 30px;
+  color: #231f20;
+  font-weight: 400;
+  /* font-family: "Millik" !important; */
+}
+
+.dashbut {
+  border-bottom: 1px solid #eaecf0;
+}
+
+.nav {
+  padding: 5px;
+  /* margin-left: 15px !important; */
+  max-width: 100%;
+}
+
+.bi-person-circle {
+  font-size: 35px;
+  color: #231f20;
+}
+
+.welcomebox {
+  display: flex;
+  border: 1px solid #120515 !important;
+  background-color: #120515 !important;
+  color: white;
+  max-width: 1114px;
+  border-radius: 12px;
+  height: 149px;
+  /* margin-left: 15px !important; */
+  position: relative;
+}
+
+.welimg {
+  /* width: 518.41px; */
+  position: absolute;
+  top: 50%;
+  left: 19.1%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.welimg2 {
+  /* width: 518.41px; */
+  position: absolute;
+  top: 50%;
+  left: 82.3%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.john {
+  font-size: 24px;
+  margin-left: 25px;
+}
+
+.jsub {
+  font-size: 16px;
+  margin-left: 25px;
+  color: #d0d5dd;
+}
+
+.pwalletbox {
+  gap: 1.5rem !important;
+  display: flex !important;
+  margin-top: 1.5rem !important;
+  /* width: 1114px; */
+}
+
+.walletbox {
+  display: flex;
+  border: 1px solid #eaecf0 !important;
+  background-color: #ffffff !important;
+  color: #101828;
+  width: 344px;
+  padding: 10px;
+  border-radius: 12px;
+  height: 164px;
+  /* margin-left: 15px !important; */
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06),
+    0px 1px 3px rgba(16, 24, 40, 0.1);
+}
+
+.marg {
+  margin: 15px !important;
+}
+
+/* .walleticonbox {
+    border: 1px solid #fff7e8 !important;
+    background-color: #fff7e8 !important;
+    color: #101828;
+    width: 51px;
+    border-radius: 8px;
+    height: 51px;
+    margin-left: 12px !important;
+    position: relative;
+  }
+  
+  .walleticonbox .bi-wallet-fill {
+    color: #c28200;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .walleticonbox .bi-stack {
+    color: #c28200;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  } */
+
+.pad1b {
+  padding-left: 7px;
+}
+
+.wbtxt {
+  font-size: 14px;
+  color: #667085;
+}
+
+.bi-eye {
+  color: #667085;
+}
+
+.wbtxt2 {
+  font-size: 18px;
+  color: #101828;
+  font-weight: 700;
+}
+
+.wbtxt3 {
+  font-size: 18px;
+  color: #101828;
+  font-weight: 500;
+}
+
+.a4 {
+  background-color: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  border-collapse: collapse;
+  width: 138px;
+  padding: 7px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  color: #101828 !important;
+}
+
+.a4:hover {
+  background-color: #faa804;
+}
+
+.a3 {
+  background-color: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  border-collapse: collapse;
+  width: 191px;
+  padding: 7px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  color: #101828 !important;
+}
+
+.a3:hover {
+  background-color: #faa804;
+}
+
+.fsbox {
+  font-size: 14px;
+  color: #344054;
+}
+
+.a2 {
+  background-color: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  border-collapse: collapse;
+  width: 108px;
+  padding: 7px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  color: #101828 !important;
+}
+
+.a2:hover {
+  background-color: #faa804;
+}
+
+.rtrans {
+  font-size: 16px;
+  color: #101828;
+  font-weight: 500;
+}
+/* 
+.rtrans2 {
+  margin-left: 15px !important;
+} */
+
+.fieldbox5 {
+  display: flex;
+  border: 1px solid #eaecf0 !important;
+  background-color: #ffffff !important;
+  max-width: 100%;
+  border-radius: 12px;
+  flex-direction: column !important;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06),
+    0px 1px 3px rgba(16, 24, 40, 0.1);
+}
+
+.Successful {
+  background-color: #ecfdf3;
+  color: #027a48;
+  text-align: center;
+  border-radius: 16px;
+  padding: 2px 8px;
+  width: 50px;
+  height: 22px;
+  font-size: 12px;
+}
+
+.Failed {
+  background-color: #fef3f2;
+  color: #b42318;
+  text-align: center;
+  border-radius: 16px;
+  padding: 2px 8px;
+  width: 50px;
+  height: 22px;
+  font-size: 12px;
+}
+
+.ttxt {
+  color: #667085;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.thtxt {
+  color: #667085;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.redtxt {
+  color: #d92d20;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+tr td,
+tr th {
+  padding: 16.6px 11px;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.lasttd {
+  border-bottom: none;
+}
+
+.pad1c {
+  padding-right: 8px;
+}
+
+.hov:hover {
+  background-color: rgb(249, 248, 248) !important;
+}
+
+.margbutt {
+  margin-bottom: 15px;
+}
+
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+.modal.right.fade .modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom-color: #eeeeee;
+  background-color: #fafafa;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+.btn-demo {
+  margin: 15px;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.btn-demo:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+
+  .condash {
+    display: none;
+  }
+
+  .conwelcome {
+    display: none;
+  }
+
+  .conwallet {
+    display: none;
+  }
+
+  .conrtrans {
+    display: none;
+  }
+}

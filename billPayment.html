@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill Payment</title>
+    <link rel="stylesheet" href="/style3.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/Images/Frame 1000002633.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lexend+Deca&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="flex-container">
+    <div class="conmain">
+        <div id="sidebar" class="pt-4 sidebar">
+            <div class="d-flex conab gap-5 align-items-center">
+                <div class="d-flex gap-2">
+                    <img class="img1" src="/Images/Frame 1000002632.png" alt="" />
+                    <p class="bignab">Nabiller</p>
+                </div>
+
+                <!-- 
+            <div Id="ham">
+               <i class="bi bi-x-lg"></i>
+            </div> -->
+            </div>
+
+            <div class="d-flex flex-column">
+                <a href="/index.html">
+                    <i class="bi bi-columns-gap pad"></i>Dashboard
+                </a>
+
+                <a href="#"><i class="bi bi-credit-card pad"></i>Bill payment</a>
+
+                <a href="/transactions.html"><i class="bi bi-stack pad"></i>Transactions</a>
+
+                <a href="/settings1.html"><i class="bi bi-gear pad"></i>Settings</a>
+            </div>
+
+            <div class="d-flex flex-column pad1">
+                <a href="#news">Logout <i class="bi bi-box-arrow-right pad1a"></i></a>
+            </div>
+        </div>
+
+        <div class="consection mt-5">
+            <div class="billpayment">
+                <!-- <i class="bi bi-arrow-left"></i> -->
+
+                <h1 style="font-family: Millik !important" class="fsbp">
+                    Bill Payment
+                </h1>
+            </div>
+
+            <div class="flex-container2 mt-3">
+
+                <form>
+
+                    <div>
+                        <label for="number">Enter meter number</label>
+
+                        <input class="number" type="number" id="number" name="number" min="" max=""
+                            placeholder="0123456789" />
+                    </div>
+
+                    <div>
+                        <label class="buss" for="name">Select Plan</label>
+
+                        <select class="workinput buss2" name="business category" id="business category">
+                            <option value="select category">Prepaid</option>
+                            <option value=">Post-paid">Post-paid</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="buss" for="name">Select Distribution company</label>
+
+                        <select class="workinput buss2" name="business category" id="business category">
+                            <option value="select category">Ikeja Electric</option>
+                            <option value=">Sole Proprietorships">PHCN</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="number">Estimated monthly sale</label>
+
+                        <input class="number" type="number" id="number" name="number" min="" max=""
+                            placeholder="10,000-100,000" />
+                    </div>
+
+                    <div>
+                        <a href="#" class="nav-link a3">Make Payment</a>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        <script src="/script.js"></script>
+</body>
+
+</html>

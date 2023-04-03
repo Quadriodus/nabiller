@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Millik";
+  src: url("/Millik Regular/Millik Regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none;
+  list-style: none;
+  font-family: "DM Sans";
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0 !important;
+}
+
+.flex-container {
+  height: 100%;
+  align-items: center;
+}
+
+/* .conmain {
+      width: 95%;
+      margin:auto;
+    } */
+
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+/* .conside {
+        width: 20% ;
+    } */
+
+.sidebar {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 264px !important;
+  background-color: #000000 !important;
+  position: fixed;
+  height: 98%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  border-radius: 16px;
+  margin-left: 10px !important;
+}
+
+.sidebar a {
+  align-items: center;
+  display: block;
+  color: #98a2b3;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.sidebar a:hover {
+  background-color: #1b1b1b !important;
+  border-radius: 0px;
+  color: #faa804;
+  border-left: 3px solid #faa804;
+}
+
+.sidebar a:hover i {
+  color: #faa804;
+}
+
+.conab {
+  padding-left: 12px;
+}
+
+.bignab {
+  font-size: 30px;
+  color: #fcfcfd;
+  font-weight: 700;
+}
+
+.img1 {
+  width: 30.58px;
+  height: 38.09px;
+}
+
+.bi-x-lg {
+  font-size: 35px;
+  color: #98a2b3;
+}
+
+.bi-x-lg:hover {
+  color: #faa804;
+}
+
+.pad {
+  padding-right: 15px;
+}
+
+.pad1a {
+  padding-left: 15px;
+}
+
+.pad1 {
+  padding-top: 420px;
+}
+
+.consection {
+  max-width: 80%;
+  margin-left: 275px !important;
+  padding: 0px 10px;
+}
+
+.billpayment {
+  justify-content: center;
+  display: flex;
+}
+
+.fsbp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.bi-arrow-left {
+  font-size: 25px;
+}
+
+.flex-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ieimg {
+  width: 44.86px;
+  height: 52.91px;
+}
+
+.ikfs {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.prfs {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100% !important;
+}
+
+td {
+  text-align: left;
+  padding: 9px;
+}
+
+.ttxt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.ttxt2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.a3 {
+  background-color: #faa804;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 409px;
+  padding: 10px 16px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #101828 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
