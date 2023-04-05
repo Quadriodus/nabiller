@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-/* .conmain {
+/* .rootcon {
     width: 95%;
     margin:auto;
   } */
@@ -33,24 +33,26 @@ p {
 }
 
 /* .conside {
-      width: 20% ;
+    
   } */
 
 .sidebar {
-  align-items: center;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin: auto 0; */
+  padding: auto 0;
   width: 264px !important;
   background-color: #000000 !important;
   position: fixed;
-  height: 98%;
+  height: calc(100vh - 16px);
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
   border-radius: 16px;
   margin-left: 10px !important;
-  margin-top: 5px !important;
+  margin-top: 7px !important;
 }
 
 .sidebar a {
@@ -89,15 +91,6 @@ p {
   height: 38.09px;
 }
 
-.bi-x-lg {
-  font-size: 35px;
-  color: #98a2b3;
-}
-
-.bi-x-lg:hover {
-  color: #faa804;
-}
-
 .pad {
   padding-right: 15px;
 }
@@ -106,67 +99,67 @@ p {
   padding-left: 15px;
 }
 
-.pad1 {
-  padding-top: 420px;
-}
-
 .consection {
-  margin-left: 275px !important;
-  padding: 0px 10px;
-  max-width: 81% !important;
+  margin-left: 264px;
+  padding: 12px 30px;
 }
 
 .dash {
   font-size: 30px;
   color: #231f20;
   font-weight: 400;
-  /* font-family: "Millik" !important; */
 }
 
 .dashbut {
   border-bottom: 1px solid #eaecf0;
-}
-/* 
-.nav {
-  padding: 5px;
-  margin-left: 15px !important;
-  max-width: 1114px;
-} */
-
-.bi-person-circle {
-  font-size: 35px;
-  color: #231f20;
 }
 
 .aicon {
   border-bottom: 1px solid #eaecf0;
 }
 
-.a2 {
+.aicon .a7 {
   color: #667085;
   text-decoration: none;
 }
 
-.a2 :hover {
+.aicon .a7 i {
+  color: #000000 !important;
+}
+
+.aicon .a7 :hover {
   color: #667085;
 }
 
-.a3 {
+.aicon .a7 :hover i {
+  color: #000000;
+}
+
+.aicon .a8 {
   color: #667085;
   text-decoration: none;
 }
 
-.a3 :hover {
+.aicon .a8 i {
+  color: #000000 !important;
+}
+
+.aicon .a8 :hover {
   color: #667085;
 }
 
+.aicon .a8 :hover i {
+  color: #000000;
+}
+
+/* 
 .bi-person {
   color: #000000;
 }
 
 .bi-lock {
   color: #000000;
-}
+} */
 
 .bs {
   color: #344054;
@@ -178,9 +171,10 @@ p {
   font-weight: 500;
 }
 
+/* 
 form > div {
   margin: 14px;
-}
+} */
 
 .number {
   border: none !important;
@@ -220,7 +214,7 @@ label {
   width: 440px;
 }
 
-.a4 {
+.a9 {
   background-color: #faa804;
   border: 1px solid #d0d5dd;
   border-radius: 10px;
@@ -235,4 +229,16 @@ label {
   color: #000000 !important;
   font-weight: 700 !important;
   font-size: 14px !important;
+}
+
+@media (max-width: 1205px) {
+  .conside {
+    display: none;
+  }
+
+  .consection {
+    margin-left: 0;
+    width: 100%;
+    padding: 12px 20px;
+  }
 }

@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-/* .conmain {
+/* .rootcon {
   width: 95%;
   margin:auto;
 } */
@@ -33,7 +33,7 @@ p {
 }
 
 /* .conside {
-    width: 20% ;
+ 
 } */
 
 .sidebar {
@@ -52,7 +52,7 @@ p {
   overflow-x: hidden;
   border-radius: 16px;
   margin-left: 10px !important;
-  margin-top: 5px !important;
+  margin-top: 7px !important;
 }
 
 .sidebar a {
@@ -91,15 +91,6 @@ p {
   height: 38.09px;
 }
 
-.bi-x-lg {
-  font-size: 35px;
-  color: #98a2b3;
-}
-
-.bi-x-lg:hover {
-  color: #faa804;
-}
-
 .pad {
   padding-right: 15px;
 }
@@ -108,42 +99,20 @@ p {
   padding-left: 15px;
 }
 
-/* .pad1 {
-  padding-top: 420px;
-} */
-
-/* .consection{
-    width:80% ;
-} */
-
-.main {
-  margin-left: 275px !important;
+.consection {
   /* Same as the width of the sidenav */
-  padding: 0px 10px;
-  max-width: 81% !important;
+  margin-left: 264px;
+  padding: 12px 30px;
 }
 
 .dash {
   font-size: 30px;
   color: #231f20;
   font-weight: 400;
-  /* font-family: "Millik" !important; */
 }
 
 .dashbut {
   border-bottom: 1px solid #eaecf0;
-}
-
-/* 
-.nav {
-  padding: 5px;
-  margin-left: 15px !important;
-  max-width: 1114px;
-} */
-
-.bi-person-circle {
-  font-size: 35px;
-  color: #231f20;
 }
 
 .welcomebox {
@@ -151,10 +120,8 @@ p {
   border: 1px solid #120515 !important;
   background-color: #120515 !important;
   color: white;
-  max-width: 1114px;
   border-radius: 12px;
   height: 149px;
-  margin-left: 15px !important;
   position: relative;
 }
 
@@ -192,11 +159,10 @@ p {
   border: 1px solid #eaecf0 !important;
   background-color: #ffffff !important;
   color: #101828;
-  width: 344px;
+  width: 30%;
   padding: 10px;
   border-radius: 12px;
   height: 164px;
-  margin-left: 15px !important;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06),
     0px 1px 3px rgba(16, 24, 40, 0.1);
 }
@@ -324,15 +290,10 @@ p {
   font-weight: 500;
 }
 
-.rtrans2 {
-  margin-left: 15px !important;
-}
-
 .fieldbox5 {
   display: flex;
   border: 1px solid #eaecf0 !important;
   background-color: #ffffff !important;
-  max-width: 1114px;
   border-radius: 12px;
   flex-direction: column !important;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06),
@@ -386,7 +347,7 @@ tr th {
 }
 
 .lasttd {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 .pad1c {
@@ -395,4 +356,122 @@ tr th {
 
 .hov:hover {
   background-color: rgb(249, 248, 248) !important;
+}
+
+.billpaymentmodal {
+  display: none;
+}
+
+.modaldiv {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #979da780;
+  z-index: 99;
+}
+
+.billpayment {
+  padding-left: 20px;
+  gap: 7rem;
+  display: flex;
+}
+
+.fsbp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label {
+  display: block !important;
+  font-size: 14px !important;
+}
+
+input,
+label {
+  margin: 0.4rem 0 !important;
+}
+
+.workinput {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 434px;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 58%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.a5 {
+  background-color: #faa804;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 434px;
+  padding: 10px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #101828 !important;
+}
+
+.flex-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form > div {
+  margin: 20px;
+}
+
+.number {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 434px;
+}
+
+.buss2 {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #667085;
+}
+
+.billpaymentmodal {
+  display: none;
+}
+
+.conmainbillpayment {
+  background-color: #ffffff;
+  max-width: 508px;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1205px) {
+  .conside {
+    display: none;
+  }
+
+  .consection {
+    margin-left: 0;
+    width: 100%;
+    padding: 12px 20px;
+  }
 }

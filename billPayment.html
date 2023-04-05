@@ -18,92 +18,64 @@
         rel="stylesheet" />
 </head>
 
-<body class="flex-container">
-    <div class="conmain">
-        <div id="sidebar" class="pt-4 sidebar">
-            <div class="d-flex conab gap-5 align-items-center">
-                <div class="d-flex gap-2">
-                    <img class="img1" src="/Images/Frame 1000002632.png" alt="" />
-                    <p class="bignab">Nabiller</p>
+<div class="position-relative">
+    <div class="modaldiv">
+        <div class="conmain">
+
+            <div class="mt-5">
+                <div class="billpayment">
+                    <i class="bi bi-arrow-left"></i>
+
+                    <h1 style="font-family: Millik !important" class="fsbp">
+                        Bill Payment
+                    </h1>
                 </div>
 
-                <!-- 
-            <div Id="ham">
-               <i class="bi bi-x-lg"></i>
-            </div> -->
-            </div>
+                <div class="flex-container2 mt-3">
 
-            <div class="d-flex flex-column">
-                <a href="/index.html">
-                    <i class="bi bi-columns-gap pad"></i>Dashboard
-                </a>
+                    <form>
 
-                <a href="#"><i class="bi bi-credit-card pad"></i>Bill payment</a>
+                        <div>
+                            <label for="number">Enter meter number</label>
 
-                <a href="/transactions.html"><i class="bi bi-stack pad"></i>Transactions</a>
+                            <input class="number" type="number" id="number" name="number" min="" max=""
+                                placeholder="0123456789" />
+                        </div>
 
-                <a href="/settings1.html"><i class="bi bi-gear pad"></i>Settings</a>
-            </div>
+                        <div>
+                            <label class="buss2" for="name">Select Plan</label>
 
-            <div class="d-flex flex-column pad1">
-                <a href="#news">Logout <i class="bi bi-box-arrow-right pad1a"></i></a>
-            </div>
-        </div>
+                            <select class="workinput buss2" name="business category" id="business category">
+                                <option value="select category">Prepaid</option>
+                                <option value=">Post-paid">Post-paid</option>
+                            </select>
+                        </div>
 
-        <div class="consection mt-5">
-            <div class="billpayment">
-                <!-- <i class="bi bi-arrow-left"></i> -->
+                        <div>
+                            <label class="buss2" for="name">Select Distribution company</label>
 
-                <h1 style="font-family: Millik !important" class="fsbp">
-                    Bill Payment
-                </h1>
-            </div>
+                            <select class="workinput buss2" name="business category" id="business category">
+                                <option value="select category">Ikeja Electric</option>
+                                <option value=">Sole Proprietorships">PHCN</option>
+                            </select>
+                        </div>
 
-            <div class="flex-container2 mt-3">
+                        <div>
+                            <label for="number">How much electricity units would you like to buy?</label>
 
-                <form>
+                            <input class="number" type="number" id="number" name="number" min="" max=""
+                                placeholder="0.00" />
+                        </div>
 
-                    <div>
-                        <label for="number">Enter meter number</label>
+                        <div>
+                            <a href="#" class=" a3">Make Payment</a>
+                        </div>
 
-                        <input class="number" type="number" id="number" name="number" min="" max=""
-                            placeholder="0123456789" />
-                    </div>
+                    </form>
 
-                    <div>
-                        <label class="buss" for="name">Select Plan</label>
-
-                        <select class="workinput buss2" name="business category" id="business category">
-                            <option value="select category">Prepaid</option>
-                            <option value=">Post-paid">Post-paid</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="buss" for="name">Select Distribution company</label>
-
-                        <select class="workinput buss2" name="business category" id="business category">
-                            <option value="select category">Ikeja Electric</option>
-                            <option value=">Sole Proprietorships">PHCN</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label for="number">Estimated monthly sale</label>
-
-                        <input class="number" type="number" id="number" name="number" min="" max=""
-                            placeholder="10,000-100,000" />
-                    </div>
-
-                    <div>
-                        <a href="#" class="nav-link a3">Make Payment</a>
-                    </div>
-
-                </form>
-
+                </div>
             </div>
         </div>
-        <script src="/script.js"></script>
-</body>
-
-</html>
+    </div>
+    <script src="/script.js"></script>
+</div>

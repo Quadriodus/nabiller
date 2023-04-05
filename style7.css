@@ -17,107 +17,23 @@ body {
   margin: 0 !important;
 }
 
-.flex-container {
-  height: 100%;
-  align-items: center;
+.conmainpaymentreceipt {
+  background-color: #ffffff;
+  max-width: 508px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
 }
-
-/* .conmain {
-      width: 95%;
-      margin:auto;
-    } */
 
 p {
   margin-top: 0 !important;
   margin-bottom: 0.4rem !important;
 }
 
-/* .conside {
-        width: 20% ;
-    } */
-
-.sidebar {
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 264px !important;
-  background-color: #000000 !important;
-  position: fixed;
-  height: 98%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  border-radius: 16px;
-  margin-left: 10px !important;
-}
-
-.sidebar a {
-  align-items: center;
-  display: block;
-  color: #98a2b3;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500px;
-}
-
-.sidebar a:hover {
-  background-color: #1b1b1b !important;
-  border-radius: 0px;
-  color: #faa804;
-  border-left: 3px solid #faa804;
-}
-
-.sidebar a:hover i {
-  color: #faa804;
-}
-
-.conab {
-  padding-left: 12px;
-}
-
-.bignab {
-  font-size: 30px;
-  color: #fcfcfd;
-  font-weight: 700;
-}
-
-.img1 {
-  width: 30.58px;
-  height: 38.09px;
-}
-
-.bi-x-lg {
-  font-size: 35px;
-  color: #98a2b3;
-}
-
-.bi-x-lg:hover {
-  color: #faa804;
-}
-
-.pad {
-  padding-right: 15px;
-}
-
-.pad1a {
-  padding-left: 15px;
-}
-
-.pad1 {
-  padding-top: 420px;
-}
-
-.consection {
-  max-width: 80%;
-  margin-left: 275px !important;
-  padding: 0px 10px;
-}
-
-.billpayment {
-  justify-content: center;
+.paymentreceipt {
   display: flex;
+  gap: 7rem;
+  padding-left: 8px;
 }
 
 .fsbp {
@@ -152,28 +68,40 @@ p {
   color: #000000;
 }
 
-table {
+.tablepaymentreceipt table {
   border-collapse: collapse;
   width: 100% !important;
 }
 
-td {
+.tablepaymentreceipt td {
   text-align: left;
-  padding: 9px;
+  padding: 7px;
 }
 
-.ttxt {
+.ttxtpaymentreceipt {
   font-weight: 400;
   font-size: 16px;
   color: #000000;
 }
 
-.ttxt2 {
+.ttxt2paymentreceipt {
   font-weight: 700;
   font-size: 20px;
 }
 
-.a3 {
+.modaldiv {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #979da780;
+  z-index: 99;
+}
+
+.a6 {
   background-color: #faa804;
   border: 1px solid #d0d5dd;
   border-radius: 10px;
@@ -188,4 +116,14 @@ td {
   color: #101828 !important;
   font-weight: 700 !important;
   font-size: 16px !important;
+}
+
+.conmainpaymentreceipt .padd {
+  padding-top: 1.5rem;
+}
+
+@media (max-height: 700px) {
+  .conmainpaymentreceipt .padd {
+    padding-top: 0;
+  }
 }

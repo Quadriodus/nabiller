@@ -17,107 +17,22 @@ body {
   margin: 0 !important;
 }
 
-.flex-container {
-  height: 100%;
-  align-items: center;
+.conmain {
+  background-color: #ffffff;
+  max-width: 508px;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
 }
-
-/* .conmain {
-    width: 95%;
-    margin:auto;
-  } */
 
 p {
   margin-top: 0 !important;
   margin-bottom: 0.4rem !important;
 }
 
-/* .conside {
-      width: 20% ;
-  } */
-
-.sidebar {
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 264px !important;
-  background-color: #000000 !important;
-  position: fixed;
-  height: 98%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  border-radius: 16px;
-  margin-left: 10px !important;
-  margin-top: 5px !important;
-}
-
-.sidebar a {
-  align-items: center;
-  display: block;
-  color: #98a2b3;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500px;
-}
-
-.sidebar a:hover {
-  background-color: #1b1b1b !important;
-  border-radius: 0px;
-  color: #faa804;
-  border-left: 3px solid #faa804;
-}
-
-.sidebar a:hover i {
-  color: #faa804;
-}
-
-.conab {
-  padding-left: 12px;
-}
-
-.bignab {
-  font-size: 30px;
-  color: #fcfcfd;
-  font-weight: 700;
-}
-
-.img1 {
-  width: 30.58px;
-  height: 38.09px;
-}
-
-.bi-x-lg {
-  font-size: 35px;
-  color: #98a2b3;
-}
-
-.bi-x-lg:hover {
-  color: #faa804;
-}
-
-.pad {
-  padding-right: 15px;
-}
-
-.pad1a {
-  padding-left: 15px;
-}
-
-.pad1 {
-  padding-top: 420px;
-}
-
-.consection {
-  max-width: 80%;
-  margin-left: 275px !important;
-  padding: 0px 10px;
-}
-
 .billpayment {
-  justify-content: center;
+  padding-left: 20px;
+  gap: 7rem;
   display: flex;
 }
 
@@ -172,18 +87,6 @@ label {
   color: #101828 !important;
 }
 
-/* 
-.a3:hover {
-  background-color: #faa804;
-} */
-
-/* 
-.inputs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .flex-container2 {
   display: flex;
   align-items: center;
@@ -209,36 +112,14 @@ form > div {
   color: #667085;
 }
 
-/* 
-.main {
-  margin-left: 275px !important; */
-/* Same as the width of the sidenav */
-/* padding: 0px 10px;
-  max-width: 81% !important;
-} */
-
-.offcanvas {
-  background: var(--tblr-card-bg);
-}
-.offcanvas-header {
-  border-bottom: 1px solid rgba(98, 105, 118, 0.16);
-}
-.offcanvas-footer {
-  padding: 1.5rem 1.5rem;
-}
-.offcanvas-title {
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-}
-.offcanvas-narrow {
-  width: 20rem;
-}
-.bg-white-overlay {
-  color: #fff;
-  background-color: rgba(250, 251, 252, 0.24);
-}
-.bg-dark-overlay {
-  color: #fff;
-  background-color: rgba(30, 41, 59, 0.24);
+.modaldiv {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #979da780;
+  z-index: 99;
 }

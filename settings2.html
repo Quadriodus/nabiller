@@ -19,34 +19,32 @@
 </head>
 
 <body class="flex-container">
-    <div class="conmain">
+    <div class="rootcon">
 
         <div class="conside">
-            <div id="sidebar" class="pt-4 sidebar">
+            <div id="sidebar" class="py-4 sidebar">
 
-                <div class="d-flex conab gap-5 align-items-center">
-                    <div class="d-flex gap-2">
-                        <img class="img1" src="/Images/Frame 1000002632.png" alt="" />
-                        <p class="bignab">Nabiller</p>
+                <div class="d-flex flex-column">
+
+                    <div class="d-flex conab gap-5 align-items-center">
+                        <div class="d-flex gap-2">
+                            <img class="img1" src="./Images/Frame 1000002632.png" alt="sidebarlogoimg" />
+                            <p class="bignab">Nabiller</p>
+                        </div>
                     </div>
 
-                    <!-- 
-            <div Id="ham">
-               <i class="bi bi-x-lg"></i>
-            </div> -->
+                    <div class=" d-flex flex-column">
+                        <a href="./index.html">
+                            <i class="bi bi-columns-gap pad"></i>Dashboard
+                        </a>
 
-                </div>
+                        <a href=""><i class="bi bi-credit-card pad"></i>Bill payment</a>
 
-                <div class=" d-flex flex-column">
-                    <a href="/index.html">
-                        <i class="bi bi-columns-gap pad"></i>Dashboard
-                    </a>
+                        <a href="./transactions.html"><i class="bi bi-stack pad"></i>Transactions</a>
 
-                    <a href="/billPayment.html"><i class="bi bi-credit-card pad"></i>Bill payment</a>
+                        <a href="./settings1.html"><i class="bi bi-gear pad"></i>Settings</a>
+                    </div>
 
-                    <a href="/transactions.html"><i class="bi bi-stack pad"></i>Transactions</a>
-
-                    <a href="/settings1.html"><i class="bi bi-gear pad"></i>Settings</a>
                 </div>
 
                 <div class="d-flex flex-column pad1">
@@ -57,8 +55,8 @@
 
         <div class="consection ">
 
-            <div class="container-sm pt-1  condash dashbut">
-                <div class="d-flex nav justify-content-between">
+            <div class="condash dashbut">
+                <div class="d-flex justify-content-between">
 
                     <div class="dash">
                         <h1 style="font-family: Millik !important">Settings</h1>
@@ -66,40 +64,32 @@
 
                     <div>
                         <!-- <i class="bi bi-person-circle"></i> -->
-                        <img src="/Images/Avatar.svg" alt="">
+                        <img src="./Images/Avatar.svg" alt="usericon">
                     </div>
                 </div>
             </div>
 
+            <div class="d-flex aicon gap-5  py-3">
 
-            <div class="pt-1 mt-3">
-                <div class="d-flex nav aicon gap-5">
-
-                    <div>
-                        <a class="d-flex gap-1 infocon a2" href="/settings1.html">
-                            <i class="bi bi-person"></i>
-
-                            <p>Account information
-                                <p>
-                        </a>
-                    </div>
-
-                    <div>
-                        <a class="d-flex gap-1 seccon a3" href="#">
-                            <i class="bi bi-lock"></i>
-
-                            <p>Security</p>
-                        </a>
-                    </div>
-
-
+                <div>
+                    <a class="d-flex gap-1 infocon a7" href="./settings1.html">
+                        <i class="bi bi-person"></i>Account information
+                    </a>
                 </div>
+
+                <div>
+                    <a class="d-flex gap-1 seccon a8" href="#">
+                        <i class="bi bi-lock"></i>Security
+                    </a>
+                </div>
+
+
             </div>
 
             <div class=" d-flex flex-row gap-5">
 
                 <div>
-                    <div class="container-sm mt-4">
+                    <div class=" mt-4">
                         <div class="rtrans ">
                             <p>Change PIN</p>
                         </div>
@@ -107,7 +97,7 @@
 
 
 
-                    <div class="mt-3 margbutt">
+                    <div class="mt-3">
 
                         <form>
 
@@ -137,31 +127,26 @@
                             </div>
 
                             <div>
-                                <a href="#" class="nav-link a4">Update PIN</a>
+                                <a href="#" class="nav-link a9">Update PIN</a>
                             </div>
 
                             <div class="pinbut mt-5">
-
                             </div>
 
-
-
                         </form>
-
-                        <!-- <div class="pinbut  mt-5"></div> -->
 
                     </div>
 
                 </div>
 
                 <div class="tftextbox">
-                    <div class="container-sm mt-4">
+                    <div class=" mt-4">
                         <div class="rtrans ">
                             <p>Enable Two-factor Authentication</p>
                         </div>
                     </div>
 
-                    <div class="container-sm mt-4">
+                    <div class=" mt-4">
                         <div class=" tfnote">
                             <p>Two-factor authentication adds an additional layer of security to your account by
                                 requiring more than just a password to login.</p>
@@ -169,8 +154,8 @@
                     </div>
 
 
-                    <div class="container-sm mt-4">
-                        <a href="#" class="nav-link a4">Activate email 2FA</a>
+                    <div class=" mt-4">
+                        <a href="#" class="nav-link a9">Activate email 2FA</a>
                     </div>
 
                 </div>

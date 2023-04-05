@@ -20,9 +20,9 @@
 
 <body class="flex-container ">
 
-    <div class="conmain">
+    <div class="rootcon">
 
-        <div class="conside m ">
+        <div class="conside">
             <div id="sidebar" class="py-4 sidebar">
 
                 <div class=" d-flex flex-column">
@@ -30,7 +30,7 @@
                     <div class="d-flex conab gap-5 align-items-center">
 
                         <div class="d-flex gap-2">
-                            <img class="img1" src="/Images/Frame 1000002632.png" alt="" />
+                            <img class="img1" src="./Images/Frame 1000002632.png" alt="sidebarlogoimg" />
                             <p class="bignab">Nabiller</p>
                         </div>
                     </div>
@@ -40,11 +40,12 @@
                         <i class="bi bi-columns-gap pad"></i>Dashboard
                     </a>
 
-                    <a href="/billPayment.html"><i class="bi bi-credit-card pad"></i>Bill payment</a>
+                    <a onclick="openbillingmodal()" href="#"><i class="bi bi-credit-card pad"></i>Bill
+                        payment</a>
 
-                    <a href="/transactions.html"><i class="bi bi-stack pad"></i>Transactions</a>
+                    <a href="./transactions.html"><i class="bi bi-stack pad"></i>Transactions</a>
 
-                    <a href="/settings1.html"><i class="bi bi-gear pad"></i>Settings</a>
+                    <a href="./settings1.html"><i class="bi bi-gear pad"></i>Settings</a>
                 </div>
 
                 <div class="d-flex flex-column pad1">
@@ -54,24 +55,24 @@
         </div>
 
         <div class="consection">
-            <div class="container-sm main  pt-1  condash dashbut">
-                <div class="d-flex nav justify-content-between">
+
+            <div class=" condash dashbut">
+                <div class="d-flex justify-content-between">
 
                     <div class="dash">
                         <h1 style="font-family: Millik !important">Dashboard</h1>
                     </div>
 
                     <div>
-                        <!-- <i class="bi bi-person-circle"></i> -->
-                        <img src="/Images/Avatar.svg" alt="">
+                        <img src="./Images/Avatar.svg" alt="usericon">
                     </div>
                 </div>
             </div>
 
-            <div class="container-sm conwelcome mt-4 main">
+            <div class=" conwelcome mt-4 ">
                 <div class="welcomebox">
-                    <img class="welimg" src="/Images/Ellipse 41.png" alt="" />
-                    <img class="welimg2" src="/Images/Frame 1000002632.svg" alt="" />
+                    <img class="welimg" src="./Images/Ellipse 41.png" alt="welboximg1" />
+                    <img class="welimg2" src="./Images/Frame 1000002632.svg" alt="welboximg2" />
                     <div class="d-flex flex-column">
                         <p class="john pt-4">Welcome John</p>
                         <p class="jsub pt-2">
@@ -82,11 +83,11 @@
             </div>
 
             <div class="conwallet">
-                <div class="container-sm d-flex mt-4 main gap-4">
+                <div class=" d-flex mt-4  justify-content-between">
                     <div class="walletbox d-flex gap-2 flex-column">
                         <div class="pt-3 gap-2 d-flex">
                             <!-- <div class="walleticonbox"><i class="bi bi-wallet-fill"></i></div> -->
-                            <img src="/Images/Frame 1000002776-2.svg" alt="">
+                            <img src="./Images/Frame 1000002776-2.svg" alt="wbimg">
 
                             <div>
                                 <p class="wbtxt">Wallet balance <i class="bi bi-eye"></i></p>
@@ -103,7 +104,7 @@
                     <div class="walletbox d-flex gap-2 flex-column">
                         <div class="pt-3 gap-2 d-flex">
                             <!-- <div class="walleticonbox"><i class="bi bi-stack"></i></div> -->
-                            <img src="/Images/Frame 1000002776-3.svg" alt="">
+                            <img src="./Images/Frame 1000002776-3.svg" alt="trimg">
 
                             <div>
                                 <p class="wbtxt">Transactions</p>
@@ -120,7 +121,7 @@
                     <div class="walletbox d-flex gap-2 flex-column">
                         <div class="pt-3 gap-2 d-flex">
                             <!-- <div class="walleticonbox"><i class="bi bi-wallet-fill"></i></div> -->
-                            <img src="/Images/Frame 1000002776-2.svg" alt="">
+                            <img src="./Images/Frame 1000002776-2.svg" alt="pebimg">
 
                             <div>
                                 <p class="wbtxt3">Pay electricity bill</p>
@@ -135,91 +136,150 @@
                 </div>
             </div>
 
-            <div class="container-sm main pt-3">
-                <div class="rtrans rtrans2">
+            <div class="pt-3">
+                <div class="rtrans">
                     <p>Recent transactions</p>
                 </div>
             </div>
 
-            <div class="container-sm main margbutt">
-                <div class="rtrans2">
-                    <div class="pt-1 fieldbox5">
-                        <table>
-                            <tr>
-                                <th class="thtxt">DISCO</th>
-                                <th class="thtxt">TIME STAMP</th>
-                                <th class="thtxt">METER NO.</th>
-                                <th class="thtxt">REFERENCE</th>
-                                <th class="thtxt">PLAN</th>
-                                <th class="thtxt">AMOUNT <i class="bi bi-chevron-down"></i></th>
-                                <th class="thtxt">BAL BEFORE <i class="bi bi-chevron-down"></i></th>
-                                <th class="thtxt">BAL AFTER <i class="bi bi-chevron-down"></i></th>
-                                <th class="thtxt">STATUS <i class="bi bi-chevron-down"></i></th>
-                                <th></th>
-                            </tr>
+            <div class="pt-1 fieldbox5">
+                <table>
+                    <tr>
+                        <th class="thtxt">DISCO</th>
+                        <th class="thtxt">TIME STAMP</th>
+                        <th class="thtxt">METER NO.</th>
+                        <th class="thtxt">REFERENCE</th>
+                        <th class="thtxt">PLAN</th>
+                        <th class="thtxt">AMOUNT <i class="bi bi-chevron-down"></i></th>
+                        <th class="thtxt">BAL BEFORE <i class="bi bi-chevron-down"></i></th>
+                        <th class="thtxt">BAL AFTER <i class="bi bi-chevron-down"></i></th>
+                        <th class="thtxt">STATUS <i class="bi bi-chevron-down"></i></th>
+                        <th></th>
+                    </tr>
 
-                            <tr class="hov">
-                                <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="">IKEDC
-                                </td>
-                                <td class="ttxt">9/12/2022, 09:22 am</td>
-                                <td class="ttxt">1234576890</td>
-                                <td class="ttxt">NAB12345</td>
-                                <td class="ttxt">Prepaid</td>
-                                <td class="redtxt">-₦19000.00</td>
-                                <td class="ttxt">₦35000.00</td>
-                                <td class="ttxt">₦30000.00</td>
-                                <td><span class="Successful"> Successful</span></td>
-                                <td><i class="bi bi-chevron-right"></i></td>
-                            </tr>
+                    <tr class="hov">
+                        <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="Ikeimg">IKEDC
+                        </td>
+                        <td class="ttxt">9/12/2022, 09:22 am</td>
+                        <td class="ttxt">1234576890</td>
+                        <td class="ttxt">NAB12345</td>
+                        <td class="ttxt">Prepaid</td>
+                        <td class="redtxt">-₦19000.00</td>
+                        <td class="ttxt">₦35000.00</td>
+                        <td class="ttxt">₦30000.00</td>
+                        <td><span class="Successful"> Successful</span></td>
+                        <td><i class="bi bi-chevron-right"></i></td>
+                    </tr>
 
-                            <tr class="hov">
-                                <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="">IKEDC
-                                </td>
-                                <td class="ttxt">9/12/2022, 09:22 am</td>
-                                <td class="ttxt">1234576890</td>
-                                <td class="ttxt">NAB12345</td>
-                                <td class="ttxt">Post-paid</td>
-                                <td class="redtxt">-₦19000.00</td>
-                                <td class="ttxt">₦35000.00</td>
-                                <td class="ttxt">₦30000.00</td>
-                                <td><span class="Successful"> Successful</span></td>
-                                <td><i class="bi bi-chevron-right"></i></td>
-                            </tr>
+                    <tr class="hov">
+                        <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="Ikeimg">IKEDC
+                        </td>
+                        <td class="ttxt">9/12/2022, 09:22 am</td>
+                        <td class="ttxt">1234576890</td>
+                        <td class="ttxt">NAB12345</td>
+                        <td class="ttxt">Post-paid</td>
+                        <td class="redtxt">-₦19000.00</td>
+                        <td class="ttxt">₦35000.00</td>
+                        <td class="ttxt">₦30000.00</td>
+                        <td><span class="Successful"> Successful</span></td>
+                        <td><i class="bi bi-chevron-right"></i></td>
+                    </tr>
 
-                            <tr class="hov">
-                                <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="">IKEDC
-                                </td>
-                                <td class="ttxt">9/12/2022, 09:22 am</td>
-                                <td class="ttxt">1234576890</td>
-                                <td class="ttxt">NAB12345</td>
-                                <td class="ttxt">Prepaid</td>
-                                <td class="redtxt">-₦19000.00</td>
-                                <td class="ttxt">₦35000.00</td>
-                                <td class="ttxt">₦30000.00</td>
-                                <td><span class="Failed">Failed</span></td>
-                                <td><i class="bi bi-chevron-right"></i></td>
-                            </tr>
+                    <tr class="hov">
+                        <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="Ikeimg">IKEDC
+                        </td>
+                        <td class="ttxt">9/12/2022, 09:22 am</td>
+                        <td class="ttxt">1234576890</td>
+                        <td class="ttxt">NAB12345</td>
+                        <td class="ttxt">Prepaid</td>
+                        <td class="redtxt">-₦19000.00</td>
+                        <td class="ttxt">₦35000.00</td>
+                        <td class="ttxt">₦30000.00</td>
+                        <td><span class="Failed">Failed</span></td>
+                        <td><i class="bi bi-chevron-right"></i></td>
+                    </tr>
 
-                            <tr class="hov lasttd">
-                                <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="">IKEDC
-                                </td>
-                                <td class="ttxt">9/12/2022, 09:22 am</td>
-                                <td class="ttxt">1234576890</td>
-                                <td class="ttxt">NAB12345</td>
-                                <td class="ttxt">Prepaid</td>
-                                <td class="redtxt">-₦19000.00</td>
-                                <td class="ttxt">₦35000.00</td>
-                                <td class="ttxt">₦30000.00</td>
-                                <td><span class="Successful"> Successful</td>
-                                <td><i class="bi bi-chevron-right"></i></td>
-                            </tr>
-                        </table>
+                    <tr class="hov lasttd">
+                        <td class="ttxt"><img class="pad1c" src="/Images/Ikeja Electric - png.png" alt="Ikeimg">IKEDC
+                        </td>
+                        <td class="ttxt">9/12/2022, 09:22 am</td>
+                        <td class="ttxt">1234576890</td>
+                        <td class="ttxt">NAB12345</td>
+                        <td class="ttxt">Prepaid</td>
+                        <td class="redtxt">-₦19000.00</td>
+                        <td class="ttxt">₦35000.00</td>
+                        <td class="ttxt">₦30000.00</td>
+                        <td><span class="Successful"> Successful</td>
+                        <td><i class="bi bi-chevron-right"></i></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <div class="position-relative billpaymentmodal">
+            <div class="modaldiv">
+                <div class="conmainbillpayment">
+
+                    <div class="mt-5">
+                        <div class="billpayment">
+                            <i class="bi bi-arrow-left"></i>
+
+                            <h1 style="font-family: Millik !important" class="fsbp">
+                                Bill Payment
+                            </h1>
+                        </div>
+
+                        <div class="flex-container2 mt-3">
+
+                            <form>
+
+                                <div>
+                                    <label for="number">Enter meter number</label>
+
+                                    <input class="number" type="number" id="number" name="number" min="" max=""
+                                        placeholder="0123456789" />
+                                </div>
+
+                                <div>
+                                    <label class="buss2" for="name">Select Plan</label>
+
+                                    <select class="workinput buss2" name="business category" id="business category">
+                                        <option value="select category">Prepaid</option>
+                                        <option value=">Post-paid">Post-paid</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label class="buss2" for="name">Select Distribution company</label>
+
+                                    <select class="workinput buss2" name="business category" id="business category">
+                                        <option value="select category">Ikeja Electric</option>
+                                        <option value=">Sole Proprietorships">PHCN</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="number">How much electricity units would you like to buy?</label>
+
+                                    <input class="number" type="number" id="number" name="number" min="" max=""
+                                        placeholder="0.00" />
+                                </div>
+
+                                <div>
+                                    <a href="#" class=" a5">Make Payment</a>
+                                </div>
+
+                            </form>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
+
     <script src="/script.js"></script>
 </body>
 
