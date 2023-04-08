@@ -123,3 +123,22 @@ form > div {
   background-color: #979da780;
   z-index: 99;
 }
+
+.nairacon input[type="number"] {
+  padding-left: 40px !important;
+}
+
+.nairacon {
+  position: relative;
+}
+
+.nairacon label {
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  padding: 9px 8px;
+  border-right: 1px solid #d0d5dd !important ;
+}
+
+.nairatxt {
+}

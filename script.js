@@ -4,10 +4,10 @@
 //     sidebar.classList.toggle('d-none w-100')
 // })
 
- var modal= document.querySelector('.billpaymentmodal')  
-function openbillingmodal() {
-    modal.style.display='flex'
-}
+//  var modal= document.querySelector('.billpaymentmodal')  
+// function openbillingmodal() {
+//     modal.style.display='flex'
+// }
 
 // var modal= document.querySelector('.paymentreceiptmodal')  
 // function openreceiptpaymentmodal() {
