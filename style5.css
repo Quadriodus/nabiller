@@ -76,6 +76,17 @@ p {
   color: #faa804;
 }
 
+.activesidebar {
+  background-color: #1b1b1b !important;
+  border-radius: 0px;
+  color: #faa804 !important;
+  border-left: 3px solid #faa804;
+}
+
+.activesidebar i {
+  color: #faa804;
+}
+
 .conab {
   padding-left: 12px;
 }
@@ -104,6 +115,12 @@ p {
   padding: 12px 30px;
 }
 
+.bi-list {
+  color: #120515;
+  font-size: 30px;
+  display: none;
+}
+
 .dash {
   font-size: 30px;
   color: #231f20;
@@ -112,6 +129,18 @@ p {
 
 .dashbut {
   border-bottom: 1px solid #eaecf0;
+}
+
+.john {
+  font-weight: 500;
+  font-size: 16px;
+  color: #101828;
+}
+
+.personbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .aicon {
@@ -231,14 +260,308 @@ label {
   font-size: 14px !important;
 }
 
+.billpaymentmodal {
+  display: none;
+}
+
+.modaldiv {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #979da780;
+  z-index: 99;
+}
+
+.billpayment {
+  padding-left: 20px;
+  gap: 7rem;
+  display: flex;
+}
+
+.fsbp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.phonecon input[type="number"] {
+  padding-left: 50px !important;
+}
+
+.phonecon {
+  position: relative;
+}
+
+.phonecon label {
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  padding: 9px 8px;
+  border-right: 1px solid #d0d5dd !important ;
+}
+
+label {
+  display: block !important;
+  font-size: 14px !important;
+}
+
+input,
+label {
+  margin: 0.4rem 0 !important;
+}
+
+.workinput2 {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 434px;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 58%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.a5 {
+  background-color: #faa804;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 434px;
+  padding: 10px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #101828 !important;
+  font-weight: 700 !important;
+}
+
+.flex-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-container3 form > div {
+  margin: 20px;
+}
+
+.number {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 434px;
+}
+
+.buss2 {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #667085;
+}
+
+.billpaymentmodal {
+  display: none;
+}
+
+.conmainbillpayment {
+  background-color: #ffffff;
+  /* max-width: 508px; */
+  padding: 9px;
+  display: flex;
+}
+
+.nairacon input[type="number"] {
+  padding-left: 40px !important;
+}
+
+.nairacon {
+  position: relative;
+}
+
+.nairacon label {
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  padding: 9px 8px;
+  border-right: 1px solid #d0d5dd !important ;
+}
+
+.modal-dialog {
+  width: 100%;
+  /* margin-right: 0 !important; */
+  /* margin: auto 0 auto 0 !important; */
+}
+.modal-dialog-slideout {
+  min-height: 100%;
+  margin: 0 0 0 auto !important;
+  background: #fff;
+}
+.modal.fade .modal-dialog.modal-dialog-slideout {
+  -webkit-transform: translate(100%, 0) scale(1);
+  transform: translate(100%, 0) scale(1);
+}
+.modal.fade.show .modal-dialog.modal-dialog-slideout {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  display: flex;
+  align-items: stretch;
+  -webkit-box-align: stretch;
+  height: 100%;
+}
+.modal.fade.show .modal-dialog.modal-dialog-slideout .modal-body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal-dialog-slideout .modal-content {
+  border: 0;
+}
+.modal-dialog-slideout .modal-header,
+.modal-dialog-slideout .modal-footer {
+  height: 4rem;
+  display: block;
+}
+
+.bi-arrow-left {
+  color: #000000;
+  font-size: 25px;
+}
+
+@media (min-width: 480px) {
+  .rootconmobile {
+    display: none;
+  }
+}
+
 @media (max-width: 1205px) {
   .conside {
     display: none;
+  }
+
+  .bi-list {
+    display: block;
   }
 
   .consection {
     margin-left: 0;
     width: 100%;
     padding: 12px 20px;
+  }
+}
+
+@media (min-width: 279px) and (max-width: 479px) {
+  .rootcon {
+    display: none;
+  }
+
+  .rootconmobile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .settings1mobilenavimg {
+    width: 44px;
+    height: 45px;
+  }
+
+  .settings1mobile {
+    gap: 1rem;
+    display: flex;
+    padding-top: 3.5rem;
+    align-items: center;
+  }
+
+  .fsbts {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .bi-arrow-left {
+    font-size: 25px;
+    color: #000000;
+  }
+
+  label {
+    display: block !important;
+    font-size: 14px !important;
+  }
+
+  input,
+  label {
+    margin: 0.4rem 0 !important;
+  }
+
+  .workinput {
+    border: none !important;
+    border-radius: 10px !important;
+    border: 1px solid #d0d5dd !important;
+    border-collapse: collapse !important;
+    padding: 8px !important;
+    width: 100%;
+  }
+
+  .fa-eye {
+    position: absolute;
+    top: 58%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+  }
+
+  .a3mobile {
+    background-color: #faa804;
+    border: 1px solid #d0d5dd;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px !important;
+    margin-top: 20px;
+    margin-right: px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #101828 !important;
+    font-weight: 700 !important;
+  }
+
+  .flex-container4 {
+    flex-direction: column;
+  }
+
+  .phoneconmobile input[type="number"] {
+    padding-left: 50px !important;
+  }
+
+  .phoneconmobile {
+    position: relative;
+  }
+
+  .phoneconmobile label {
+    position: absolute;
+    left: 0;
+    top: 1.5px;
+    padding: 9px 8px;
+    border-right: 1px solid #d0d5dd !important ;
+  }
+
+  .numbermobile {
+    border: none !important;
+    border-radius: 10px !important;
+    border: 1px solid #d0d5dd !important;
+    border-collapse: collapse !important;
+    padding: 8px !important;
+    width: 100%;
   }
 }

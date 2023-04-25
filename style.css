@@ -76,6 +76,17 @@ p {
   color: #faa804;
 }
 
+.activesidebar {
+  background-color: #1b1b1b !important;
+  border-radius: 0px;
+  color: #faa804 !important;
+  border-left: 3px solid #faa804;
+}
+
+.activesidebar i {
+  color: #faa804;
+}
+
 .conab {
   padding-left: 12px;
 }
@@ -105,6 +116,12 @@ p {
   padding: 12px 30px;
 }
 
+.bi-list {
+  color: #120515;
+  font-size: 30px;
+  display: none;
+}
+
 .dash {
   font-size: 30px;
   color: #231f20;
@@ -114,7 +131,7 @@ p {
 .dashbut {
   border-bottom: 1px solid #eaecf0;
 }
-
+/* 
 .welcomebox {
   display: flex;
   border: 1px solid #120515 !important;
@@ -141,17 +158,28 @@ p {
   left: 85%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
+} */
 
 .john {
-  font-size: 24px;
-  margin-left: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #101828;
 }
 
+.personbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+/* 
 .jsub {
   font-size: 16px;
   margin-left: 25px;
   color: #d0d5dd;
+} */
+
+.conwallet {
+  padding-top: 32px;
 }
 
 .walletbox {
@@ -284,6 +312,10 @@ p {
   background-color: #faa804;
 }
 
+.rtranscon {
+  padding-top: 35px;
+}
+
 .rtrans {
   font-size: 16px;
   color: #101828;
@@ -298,6 +330,8 @@ p {
   flex-direction: column !important;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06),
     0px 1px 3px rgba(16, 24, 40, 0.1);
+  height: 305px;
+  margin-top: 20px;
 }
 
 .Successful {
@@ -340,7 +374,7 @@ p {
   font-weight: 400;
 }
 
-tr td,
+.fieldbox5 tr td,
 tr th {
   padding: 16.6px 11px;
   border-bottom: 1px solid #eaecf0;
@@ -425,6 +459,7 @@ label {
   text-decoration: none;
   display: inline-block;
   color: #101828 !important;
+  font-weight: 700 !important;
 }
 
 .flex-container2 {
@@ -514,7 +549,121 @@ form > div {
   display: block;
 }
 
-@media (min-width: 481px) {
+.bi-chevron-right {
+  color: #9ca1a5;
+}
+
+.conmainpaymentreceipt {
+  padding: 40px;
+}
+
+.paymentreceipt {
+  display: flex;
+  gap: 7rem;
+}
+
+.alc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fspr {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.fsbp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.flex-container2 {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.ieimg {
+  width: 44.86px;
+  height: 52.91px;
+}
+
+.ikfs {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.prfs {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.tablepaymentreceipt {
+  margin-top: 0.5;
+}
+
+.tablepaymentreceipt table {
+  border-collapse: collapse;
+  width: 100% !important;
+}
+
+.tablepaymentreceipt td {
+  text-align: left;
+  padding: 7px;
+}
+
+.ttxtpaymentreceipt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.ttxt2paymentreceipt {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.a6 {
+  background-color: #faa804;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 409px;
+  padding: 10px 16px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #101828 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.bi-arrow-left {
+  color: #000000;
+  font-size: 25px;
+}
+@media (max-height: 700px) {
+  .conmainpaymentreceipt {
+    padding: 0px 40px 0 40px;
+  }
+
+  .a6 {
+    margin-top: 0;
+  }
+}
+
+.bi-arrow-left {
+  color: #000000;
+  font-size: 25px;
+}
+
+@media (min-width: 920px) {
   .rootconmobile {
     display: none;
   }
@@ -525,6 +674,10 @@ form > div {
     display: none;
   }
 
+  .bi-list {
+    display: block;
+  }
+
   .consection {
     margin-left: 0;
     width: 100%;
@@ -532,7 +685,13 @@ form > div {
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 921px) and (max-width: 1039px) {
+  .fieldbox5 {
+    height: 400px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 920px) {
   .rootcon {
     display: none;
   }
@@ -573,8 +732,8 @@ form > div {
 
   .topdash .topdashimg3 {
     position: absolute;
-    top: 25%;
-    left: 24%;
+    top: 35%;
+    left: 10.6%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     width: 192.83px;
@@ -696,6 +855,230 @@ form > div {
 
   .ikfs {
     font-weight: 400;
+    font-size: 13px;
+    color: #383a3c;
+  }
+
+  .ikejaEfs {
+    font-weight: 400;
+    font-size: 14px;
+    color: #383a3c;
+  }
+
+  .datemobile {
+    font-weight: 400;
+    font-size: 13px;
+    color: #383a3c;
+  }
+
+  .bi-circle-fill {
+    color: #017c6a;
+    font-size: 7px;
+  }
+
+  .redtxtmobile {
+    font-weight: 500;
+    font-size: 14px;
+    color: #d92d20;
+  }
+
+  .successdotcon {
+    align-items: baseline;
+    display: flex;
+    gap: 0.25rem;
+  }
+
+  .insidetflast {
+    display: flex;
+    padding: 20px 5px 0px;
+
+    align-items: center;
+  }
+
+  .arr {
+    font-weight: 500;
+    font-size: 14px;
+    color: #98a2b3;
+    text-align: center;
+    border-bottom: 1px solid #d0d5dd !important;
+  }
+
+  .tpc {
+    font-weight: 500;
+    font-size: 14px;
+    color: #98a2b3;
+  }
+
+  .footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+}
+/* 
+@media (min-width: 320px) and (max-width: 767px) {
+  .rootcon {
+    display: none;
+  }
+
+  .rootconmobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topdash {
+    position: relative;
+    width: 100%;
+    background-color: #120515;
+    padding: 20px;
+    background-size: cover;
+    height: 288px;
+  }
+
+  .topdash .topdashimg1 {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 31.21px;
+    height: 39.4px;
+  }
+
+  .topdash .topdashimg2 {
+    position: absolute;
+    top: 20%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+  }
+
+  .topdash .topdashimg3 {
+    position: absolute;
+    top: 35%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 192.83px;
+    height: 210.83px;
+  }
+
+  .topdash .topdashimg4 {
+    position: absolute;
+    top: 75%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: 129px;
+    width: 163px;
+  }
+
+  .hbfs {
+    color: #d0d5dd;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .digits0 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .paddhb {
+    padding-top: 80px;
+  }
+
+  .mobilewalletbox {
+    width: 332px;
+    height: 223px;
+    background: #ffffff;
+    box-shadow: 0px 2px 16px rgba(22, 22, 22, 0.1);
+    border-radius: 8px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .fwbox {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eaecf0;
+  }
+
+  .pbbox {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eaecf0;
+  }
+
+  .transbox {
+    display: flex;
+    padding: 10px;
+  }
+
+  .txtmobilewalletbox1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #320e3a;
+  }
+
+  .txtmobilewalletbox2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #320e3a;
+  }
+
+  .mobileiconimg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .dashbody {
+    padding: 200px 25px 0px;
+  }
+
+  .fsrecentranstxt {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+  }
+
+  .fsseealltxt {
+    font-weight: 700;
+    font-size: 14px;
+    color: #faa804;
+    text-decoration: none;
+  }
+
+  .insidetf {
+    display: flex;
+    padding: 20px 5px 20px;
+    border-bottom: 1px solid #d0d5dd !important;
+    align-items: center;
+  }
+
+  .ikejaElecimg {
+    width: 39px;
+    height: 40px;
+  }
+
+  .todayfs {
+    font-weight: 700;
+    font-size: 14px;
+    color: #65696b;
+  }
+
+  .ikfs {
+    font-weight: 400;
     font-size: 16px;
     color: #383a3c;
   }
@@ -737,4 +1120,4 @@ form > div {
     gap: 1rem;
     justify-content: center;
   }
-}
+} */

@@ -76,6 +76,17 @@ p {
   color: #faa804;
 }
 
+.activesidebar {
+  background-color: #1b1b1b !important;
+  border-radius: 0px;
+  color: #faa804 !important;
+  border-left: 3px solid #faa804;
+}
+
+.activesidebar i {
+  color: #faa804;
+}
+
 .conab {
   padding-left: 12px;
 }
@@ -105,6 +116,12 @@ p {
   padding: 12px 30px;
 }
 
+.bi-list {
+  color: #120515;
+  font-size: 30px;
+  display: none;
+}
+
 .dash {
   font-size: 30px;
   color: #231f20;
@@ -114,6 +131,19 @@ p {
 .dashbut {
   border-bottom: 1px solid #eaecf0;
 }
+
+.john {
+  font-weight: 500;
+  font-size: 16px;
+  color: #101828;
+}
+
+.personbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 /* 
 .searchcon {
   position: relative;
@@ -200,7 +230,7 @@ label {
 }
 
 .marg {
-  margin: 15px !important;
+  margin: 8px !important;
 }
 
 .bi-download {
@@ -219,6 +249,7 @@ label {
   flex-direction: column !important;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06),
     0px 1px 3px rgba(16, 24, 40, 0.1);
+  height: 598px;
 }
 
 .Successful {
@@ -261,7 +292,7 @@ label {
   font-weight: 400;
 }
 
-tr td,
+.fieldbox5 tr td,
 tr th {
   padding: 16.6px 11px;
   border-bottom: 1px solid #eaecf0;
@@ -298,9 +329,274 @@ tr th {
   color: #212121;
 }
 
-@media (max-width: 1270px) {
+.billpaymentmodal {
+  display: none;
+}
+
+.billpayment {
+  padding-left: 20px;
+  gap: 7rem;
+  display: flex;
+}
+
+.fsbp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label {
+  display: block !important;
+  font-size: 14px !important;
+}
+
+input,
+label {
+  margin: 0.4rem 0 !important;
+}
+
+.workinput2 {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 434px;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 58%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.a5 {
+  background-color: #faa804;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 434px;
+  padding: 10px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #101828 !important;
+  font-weight: 700 !important;
+}
+
+.flex-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form > div {
+  margin: 20px;
+}
+
+.number {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #d0d5dd !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 434px;
+}
+
+.buss2 {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #667085;
+}
+
+.billpaymentmodal {
+  display: none;
+}
+
+.conmainbillpayment {
+  background-color: #ffffff;
+  /* max-width: 508px; */
+  padding: 9px;
+  display: flex;
+}
+
+.nairacon input[type="number"] {
+  padding-left: 40px !important;
+}
+
+.nairacon {
+  position: relative;
+}
+
+.nairacon label {
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  padding: 9px 8px;
+  border-right: 1px solid #d0d5dd !important ;
+}
+
+.modal-dialog {
+  width: 100%;
+  /* margin-right: 0 !important; */
+  /* margin: auto 0 auto 0 !important; */
+}
+.modal-dialog-slideout {
+  min-height: 100%;
+  margin: 0 0 0 auto !important;
+  background: #fff;
+}
+.modal.fade .modal-dialog.modal-dialog-slideout {
+  -webkit-transform: translate(100%, 0) scale(1);
+  transform: translate(100%, 0) scale(1);
+}
+.modal.fade.show .modal-dialog.modal-dialog-slideout {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  display: flex;
+  align-items: stretch;
+  -webkit-box-align: stretch;
+  height: 100%;
+}
+.modal.fade.show .modal-dialog.modal-dialog-slideout .modal-body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal-dialog-slideout .modal-content {
+  border: 0;
+}
+.modal-dialog-slideout .modal-header,
+.modal-dialog-slideout .modal-footer {
+  height: 4rem;
+  display: block;
+}
+
+.bi-chevron-right {
+  color: #9ca1a5;
+}
+
+.conmainpaymentreceipt {
+  padding: 40px;
+}
+
+.paymentreceipt {
+  display: flex;
+  gap: 7rem;
+}
+
+.alc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fspr {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.fsbp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.flex-container2 {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.ieimg {
+  width: 44.86px;
+  height: 52.91px;
+}
+
+.ikfs {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.prfs {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.tablepaymentreceipt {
+  margin-top: 0.5;
+}
+
+.tablepaymentreceipt table {
+  border-collapse: collapse;
+  width: 100% !important;
+}
+
+.tablepaymentreceipt td {
+  text-align: left;
+  padding: 7px;
+}
+
+.ttxtpaymentreceipt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.ttxt2paymentreceipt {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.a6 {
+  background-color: #faa804;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 409px;
+  padding: 10px 16px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #101828 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.bi-arrow-left {
+  color: #000000;
+  font-size: 25px;
+}
+
+@media (min-width: 921px) and (max-width: 1039px) {
+  .fieldbox5 {
+    height: 800px;
+  }
+}
+
+@media (max-height: 700px) {
+  .conmainpaymentreceipt {
+    padding: 0px 40px 0 40px;
+  }
+
+  .a6 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1205px) {
   .conside {
     display: none;
+  }
+
+  .bi-list {
+    display: block;
   }
 
   .consection {
